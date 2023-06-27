@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  h1, h2 {
+    color: #fff;
+  }
+  
+  #clock {
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  
+  #set-alarm {
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  #alarms-list {
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  #alarms {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px; /* Add spacing between list items */
+  }
+  
+  #alarms li {
+    margin-bottom: 10px; /* Add spacing between two set alarms */
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px; /* Add spacing between delete button and alarm text */
+    border-radius: 4px; /* Add border radius for a rounded button */
+    transition: background-color 0.3s; /* Add smooth transition for hover effect */
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
